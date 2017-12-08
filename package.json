@@ -1,0 +1,24 @@
+{
+  "name": "redisttlscan",
+  "version": "0.1.0",
+  "description": "Scans redis for keys that match, have no ttl set and optionally sets one.",
+  "private": true,
+  "main": "index.js",
+  "bin": {
+    "redisHashScan": "./index.js"
+  },
+  "author": "Lance Hudson <lance@lancehudson.com> (http://lancehudson.com/)",
+  "license": "Unlicense",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "ioredis": "^3.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lancehudson/redisTTLScan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lancehudson/redisTTLScan/issues"
+  },
+  "homepage": "https://github.com/lancehudson/redisTTLScan#readme"
+}
